@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "873689334079",
+    "project_id": "campus-schedule-hub-ec53e",
+    "storage_bucket": "campus-schedule-hub-ec53e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873689334079:android:1de38d3bcb92e336c9538a",
+        "android_client_info": {
+          "package_name": "com.example.campus_schedule_hub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYhHb_BQuB1xJJz60-yiYl2Lk410a5tBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
