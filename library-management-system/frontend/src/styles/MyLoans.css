@@ -1,0 +1,94 @@
+.loans-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.loans-container h2 {
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.loans-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.loans-table thead {
+  background-color: #667eea;
+  color: white;
+}
+
+.loans-table th {
+  padding: 15px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.loans-table td {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.loans-table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.status {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.status.active {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status.returned {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+.status.overdue {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.loans-table button {
+  padding: 8px 15px;
+  background-color: #667eea;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.loans-table button:hover {
+  background-color: #764ba2;
+}
+
+.message {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #c3e6cb;
+}
+
+.loading {
+  text-align: center;
+  padding: 60px 30px;
+  font-size: 18px;
+  color: #666;
+}

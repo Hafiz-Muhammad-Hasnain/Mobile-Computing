@@ -1,0 +1,62 @@
+/* Tailwind CSS is used for styling */
+/* Install tailwindcss with: npm install -D tailwindcss postcss autoprefixer */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* Responsive utilities */
+@media (max-width: 640px) {
+  header .container h1 {
+    font-size: 1.75rem;
+  }
+  
+  main .container {
+    padding: 1rem;
+  }
+}
+
+/* Animation for loading spinner */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+/* Animation for alerts */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Smooth transitions */
+button {
+  transition: all 0.3s ease;
+}
+
+input, select, textarea {
+  transition: all 0.3s ease;
+}
